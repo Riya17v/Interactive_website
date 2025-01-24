@@ -1,0 +1,237 @@
+@media (max-width: 1024px) {
+  #Navbar ul li a {
+    font-size: 0.9rem;
+  }
+
+  .heading h2 {
+    font-size: 1.8rem;
+  }
+
+  .aside img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  #Navbar {
+    /* display: flex; */
+    flex-direction: row;
+    /* align-items: flex-start; */
+    padding: 1rem;
+  }
+
+  #Navbar h1 {
+    margin-bottom: 1rem;
+  }
+
+  #Navbar ul {
+    flex-direction: column;
+    gap: 0.2rem;
+    align-items: flex-start;
+    font-size: 0.3em;
+  }
+
+  #sec {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .aside img {
+    height: 250px;
+    width: 250px;
+    margin-top: 8px;
+  }
+
+  .aside img:hover {
+    width: 350px;
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  #Navbar h1 {
+    font-size: 1.2rem;
+  }
+
+  #Navbar ul li a {
+    font-size: 0.8rem;
+  }
+
+  .heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .aside img {
+    height: 200px;
+    width: 200px;
+    margin-top: 8px;
+  }
+
+  /* .aside img:hover{
+      width: 350px;
+      overflow: hidden;
+    } */
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .main span {
+    font-size: 0.9rem;
+  }
+}
+
+@media(max-width: 320px) {
+  .aside img {
+    height: 200px;
+    width: 230px;
+    border-radius: 5%;
+    margin-top: 8px;
+  }
+
+  .btn {
+    margin-top: 4px;
+    
+  }
+
+  .aside img:hover {
+    width: 250px;
+  }
+
+  .main span {
+    font-size: 1.2em;
+  }
+
+  .main {
+    margin: 8px;
+    width: 20rem;
+  }
+}
+
+.post {
+  background: #706262;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.post-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffc6c6;
+}
+.post-body {
+  color: #cc8585;
+}
+
+.btn2 {
+  font-family: 'Skranji', cursive;
+  margin: 0px 9px;
+  padding: 4px 14px;
+  background-color: black;
+  border: 2px solid grey;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+
+}
+
+.btn2:hover {
+  background-color: grey;
+
+}
+
+.container2 {
+  margin: 106px 80px;
+  padding: 75px;
+  width: 34%;
+  border: 2px solid white;
+  border-radius: 28px;
+
+
+}
+
+.form-group input {
+  text-align: center;
+
+  display: block;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 68%;
+  margin: 10px auto;
+  padding: 4px;
+  font-size: 16px;
+}
+
+.container2 h1 {
+  text-align: center;
+}
+
+.container2 button {
+  display: block;
+  width: 88px;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .container2 {
+    width: 80%; /* Increase width for smaller screens */
+    padding: 50px;
+    margin: 50px auto;
+  }
+
+  .form-group input {
+    width: 90%; /* Input fields take up more space */
+    font-size: 14px;
+  }
+
+  .container2 button {
+    width: 100px; /* Slightly larger button for better touch support */
+  }
+}
+
+/* For devices with width less than 480px (Mobile devices) */
+@media (max-width: 480px) {
+  .container2 {
+    width: 95%; /* Use almost full screen width */
+    padding: 30px;
+    margin: 20px auto;
+  }
+
+  .form-group input {
+    width: 100%; /* Inputs take up full width */
+    font-size: 14px;
+  }
+
+  .container2 h1 {
+    font-size: 18px; /* Reduce heading size */
+  }
+
+  .btn2 {
+    padding: 6px 12px; /* Adjust padding for smaller buttons */
+  }
+}
+@media (max-width: 320px) {
+  .container2 {
+    width: 95%; /* Use almost full screen width */
+    padding: 30px;
+    margin-left: 6rem;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
+}
